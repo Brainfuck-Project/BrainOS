@@ -169,7 +169,7 @@ point s_1
 add 1
 
 ;; variables
-var charCopy
+var checkChar
 var userCharCopy
 var userChar
 var matchFound
@@ -266,18 +266,19 @@ point loop
 
   point userChar
   getchr
+  subb 0x40
 
   point LF
   print
 
   ;; check for A
-  point A
-  copy charCopy
+  point checkChar
+  add 1
 
   point userChar
   copy userCharCopy
 
-  point charCopy
+  point checkChar
   subv userCharCopy
 
   point userCharCopy
@@ -360,13 +361,13 @@ point loop
   [
     setz
 
-    point Z
-    copy charCopy
+    point checkChar
+    add 26
 
     point userChar
     copy userCharCopy
 
-    point charCopy
+    point checkChar
     subv userCharCopy
 
     point userCharCopy
