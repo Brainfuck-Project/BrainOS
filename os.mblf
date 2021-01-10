@@ -1,0 +1,429 @@
+;; char
+var 0
+var 1
+var 2
+var 3
+var 4
+var 5
+var 6
+var 7
+var 8
+var 9
+var A
+var B
+var C
+var D
+var E
+var F
+var G
+var H
+var I
+var J
+var K
+var L
+var M
+var N
+var O
+var P
+var Q
+var R
+var S
+var T
+var U
+var V
+var W
+var X
+var Y
+var Z
+var PROMPT
+var SP
+var LF
+
+;; this is probably the fastest way :shrug:
+point 0
+addb "0"
+
+point 1
+addb "1"
+
+point 2
+addb "2"
+
+point 3
+addb "3"
+
+point 4
+addb "4"
+
+point 5
+addb "5"
+
+point 6
+addb "6"
+
+point 7
+addb "7"
+
+point 8
+addb "8"
+
+point 9
+addb "9"
+
+point A
+addb "A"
+
+point B
+addb "B"
+
+point C
+addb "C"
+
+point D
+addb "D"
+
+point E
+addb "E"
+
+point F
+addb "F"
+
+point G
+addb "G"
+
+point H
+addb "H"
+
+point I
+addb "I"
+
+point J
+addb "J"
+
+point K
+addb "K"
+
+point L
+addb "L"
+
+point M
+addb "M"
+
+point N
+addb "N"
+
+point O
+addb "O"
+
+point P
+addb "P"
+
+point Q
+addb "Q"
+
+point R
+addb "R"
+
+point S
+addb "S"
+
+point T
+addb "T"
+
+point U
+addb "U"
+
+point V
+addb "V"
+
+point W
+addb "W"
+
+point X
+addb "X"
+
+point Y
+addb "Y"
+
+point Z
+addb "Z"
+
+point PROMPT
+addb ">"
+
+point SP
+addb 0x20
+
+point LF
+add 0x0A
+
+;; marker
+var marker1
+
+point marker1
+sub 1
+
+;; static variables
+var s_0
+var s_1
+
+point s_1
+add 1
+
+;; variables
+var charCopy
+var matchFound
+var loop
+var userCharCopy
+var userChar
+
+point matchFound
+add 1
+
+point loop
+add 1
+
+;; print "BRAINOS VER 1"
+point B
+print
+
+point R
+print
+
+point A
+print
+
+point I
+print
+
+point N
+print
+
+point O
+print
+
+point S
+print
+
+point SP
+print
+
+point V
+print
+
+point E
+print
+
+point R
+print
+
+point SP
+print
+
+point 1
+print
+
+point LF
+print
+
+;; print "A FOR HELP"
+point A
+print
+
+point SP
+print
+
+point F
+print
+
+point O
+print
+
+point R
+print
+
+point SP
+print
+
+point H
+print
+
+point E
+print
+
+point L
+print
+
+point P
+print
+
+point LF
+print
+
+;; command loop
+point loop
+[
+  point PROMPT
+  print
+
+  point userChar
+  getchr
+
+  point LF
+  print
+
+  ;; check for A
+  point A
+  copy charCopy
+
+  point userChar
+  copy userCharCopy
+
+  point charCopy
+  subv userCharCopy
+
+  point userCharCopy
+  [
+    point matchFound
+    sub 1
+
+    point s_0
+  ]
+  pointm marker1
+
+  point matchFound
+  [
+    ;; print "A > HELP"
+    point A
+    print
+
+    point SP
+    print
+
+    point PROMPT
+    print
+
+    point SP
+    print
+
+    point H
+    print
+
+    point E
+    print
+
+    point L
+    print
+
+    point P
+    print
+
+    point LF
+    print
+
+    ;; print "Z > HALT"
+    point Z
+    print
+
+    point SP
+    print
+
+    point PROMPT
+    print
+
+    point SP
+    print
+
+    point H
+    print
+
+    point A
+    print
+
+    point L
+    print
+
+    point T
+    print
+
+    point LF
+    print
+
+    point s_0
+  ]
+  pointm marker1
+
+  point matchFound
+  setz
+  add 1
+
+  ;; check for Z
+  point userCharCopy
+  [
+    setz
+
+    point Z
+    copy charCopy
+
+    point userChar
+    copy userCharCopy
+
+    point charCopy
+    subv userCharCopy
+
+    point userCharCopy
+    [
+      point matchFound
+      sub 1
+
+      point s_0
+    ]
+    pointm marker1
+
+    point matchFound
+    [
+      ;; print "HALTING"
+      point H
+      print
+
+      point A
+      print
+
+      point L
+      print
+
+      point T
+      print
+
+      point I
+      print
+
+      point N
+      print
+
+      point G
+      print
+
+      point LF
+      print
+
+      point loop
+      sub 1
+
+      point s_0
+    ]
+    pointm marker1
+
+    point matchFound
+    setz
+    add 1
+
+    point s_0
+  ]
+  pointm marker1
+
+  point userCharCopy
+  setz
+
+  point loop
+]
