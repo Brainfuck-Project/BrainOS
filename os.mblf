@@ -1,159 +1,157 @@
 ;; char
 var 0
-var 1
-var 2
-var 3
-var 4
-var 5
-var 6
-var 7
-var 8
-var 9
-var A
-var B
-var C
-var D
-var E
-var F
-var G
-var H
-var I
-var J
-var K
-var L
-var M
-var N
-var O
-var P
-var Q
-var R
-var S
-var T
-var U
-var V
-var W
-var X
-var Y
-var Z
-var PROMPT
-var SP
-var LF
-
-;; this is probably the fastest way :shrug:
 point 0
 addb "0"
 
+var 1
 point 1
 addb "1"
 
+var 2
 point 2
 addb "2"
 
+var 3
 point 3
 addb "3"
 
+var 4
 point 4
 addb "4"
 
+var 5
 point 5
 addb "5"
 
+var 6
 point 6
 addb "6"
 
+var 7
 point 7
 addb "7"
 
+var 8
 point 8
 addb "8"
 
+var 9
 point 9
 addb "9"
 
+var A
 point A
 addb "A"
 
+var B
 point B
 addb "B"
 
+var C
 point C
 addb "C"
 
+var D
 point D
 addb "D"
 
+var E
 point E
 addb "E"
 
+var F
 point F
 addb "F"
 
+var G
 point G
 addb "G"
 
+var H
 point H
 addb "H"
 
+var I
 point I
 addb "I"
 
+var J
 point J
 addb "J"
 
+var K
 point K
 addb "K"
 
+var L
 point L
 addb "L"
 
+var M
 point M
 addb "M"
 
+var N
 point N
 addb "N"
 
+var O
 point O
 addb "O"
 
+var P
 point P
 addb "P"
 
+var Q
 point Q
 addb "Q"
 
+var R
 point R
 addb "R"
 
+var S
 point S
 addb "S"
 
+var T
 point T
 addb "T"
 
+var U
 point U
 addb "U"
 
+var V
 point V
 addb "V"
 
+var W
 point W
 addb "W"
 
+var X
 point X
 addb "X"
 
+var Y
 point Y
 addb "Y"
 
+var Z
 point Z
 addb "Z"
 
+var PROMPT
 point PROMPT
 addb ">"
 
+var SP
 point SP
 addb 0x20
 
+var LF
 point LF
 add 0x0A
 
