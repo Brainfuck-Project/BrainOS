@@ -156,9 +156,9 @@ point LF
 add 0x0A
 
 ;; marker
-var marker1
+var m_1
 
-point marker1
+point m_1
 sub 1
 
 ;; static variables
@@ -170,10 +170,10 @@ add 1
 
 ;; variables
 var charCopy
-var matchFound
-var loop
 var userCharCopy
 var userChar
+var matchFound
+var loop
 
 point matchFound
 add 1
@@ -287,7 +287,7 @@ point loop
 
     point s_0
   ]
-  pointm marker1
+  pointm m_1
 
   point matchFound
   [
@@ -349,7 +349,7 @@ point loop
 
     point s_0
   ]
-  pointm marker1
+  pointm m_1
 
   point matchFound
   setz
@@ -376,7 +376,7 @@ point loop
 
       point s_0
     ]
-    pointm marker1
+    pointm m_1
 
     point matchFound
     [
@@ -410,7 +410,7 @@ point loop
 
       point s_0
     ]
-    pointm marker1
+    pointm m_1
 
     point matchFound
     setz
@@ -418,7 +418,7 @@ point loop
 
     point s_0
   ]
-  pointm marker1
+  pointm m_1
 
   point userCharCopy
   setz
