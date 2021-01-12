@@ -1,155 +1,155 @@
-var 0
-point 0
+var c_0
+point c_0
 addb "0"
 
-var 1
-point 1
+var c_1
+point c_1
 addb "1"
 
-var 2
-point 2
+var c_2
+point c_2
 addb "2"
 
-var 3
-point 3
+var c_3
+point c_3
 addb "3"
 
-var 4
-point 4
+var c_4
+point c_4
 addb "4"
 
-var 5
-point 5
+var c_5
+point c_5
 addb "5"
 
-var 6
-point 6
+var c_6
+point c_6
 addb "6"
 
-var 7
-point 7
+var c_7
+point c_7
 addb "7"
 
-var 8
-point 8
+var c_8
+point c_8
 addb "8"
 
-var 9
-point 9
+var c_9
+point c_9
 addb "9"
 
-var A
-point A
+var c_a
+point c_a
 addb "A"
 
-var B
-point B
+var c_b
+point c_b
 addb "B"
 
-var C
-point C
+var c_c
+point c_c
 addb "C"
 
-var D
-point D
+var c_d
+point c_d
 addb "D"
 
-var E
-point E
+var c_e
+point c_e
 addb "E"
 
-var F
-point F
+var c_f
+point c_f
 addb "F"
 
-var G
-point G
+var c_g
+point c_g
 addb "G"
 
-var H
-point H
+var c_h
+point c_h
 addb "H"
 
-var I
-point I
+var c_i
+point c_i
 addb "I"
 
-var J
-point J
+var c_j
+point c_j
 addb "J"
 
-var K
-point K
+var c_k
+point c_k
 addb "K"
 
-var L
-point L
+var c_l
+point c_l
 addb "L"
 
-var M
-point M
+var c_m
+point c_m
 addb "M"
 
-var N
-point N
+var c_n
+point c_n
 addb "N"
 
-var O
-point O
+var c_o
+point c_o
 addb "O"
 
-var P
-point P
+var c_p
+point c_p
 addb "P"
 
-var Q
-point Q
+var c_q
+point c_q
 addb "Q"
 
-var R
-point R
+var c_r
+point c_r
 addb "R"
 
-var S
-point S
+var c_s
+point c_s
 addb "S"
 
-var T
-point T
+var c_t
+point c_t
 addb "T"
 
-var U
-point U
+var c_u
+point c_u
 addb "U"
 
-var V
-point V
+var c_v
+point c_v
 addb "V"
 
-var W
-point W
+var c_w
+point c_w
 addb "W"
 
-var X
-point X
+var c_x
+point c_x
 addb "X"
 
-var Y
-point Y
+var c_y
+point c_y
 addb "Y"
 
-var Z
-point Z
+var c_z
+point c_z
 addb "Z"
 
-var PROMPT
-point PROMPT
+var c_prompt
+point c_prompt
 addb ">"
 
-var SP
-point SP
+var c_sp
+point c_sp
 addb 0x20
 
-var LF
-point LF
+var c_lf
+point c_lf
 add 0x0A

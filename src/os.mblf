@@ -1,7 +1,7 @@
 var tempChar
 
 ;; print "STARTING"
-addb "S"
+addb "S" ;; S
 print
 
 add 1    ;; T
@@ -60,93 +60,93 @@ point loop
 add 1
 
 ;; print "BRAINOS VER 1"
-point B
+point c_b
 print
 
-point R
+point c_r
 print
 
-point A
+point c_a
 print
 
-point I
+point c_i
 print
 
-point N
+point c_n
 print
 
-point O
+point c_o
 print
 
-point S
+point c_s
 print
 
-point SP
+point c_sp
 print
 
-point V
+point c_v
 print
 
-point E
+point c_e
 print
 
-point R
+point c_r
 print
 
-point SP
+point c_sp
 print
 
-point 1
+point c_1
 print
 
-point LF
+point c_lf
 print
 
 ;; print "A FOR HELP"
-point A
+point c_a
 print
 
-point SP
+point c_sp
 print
 
-point F
+point c_f
 print
 
-point O
+point c_o
 print
 
-point R
+point c_r
 print
 
-point SP
+point c_sp
 print
 
-point H
+point c_h
 print
 
-point E
+point c_e
 print
 
-point L
+point c_l
 print
 
-point P
+point c_p
 print
 
-point LF
+point c_lf
 print
 
 ;; command loop
 point loop
 [
-  point PROMPT
+  point c_prompt
   print
 
   point userChar
   getchr
   subb 0x40
 
-  point LF
+  point c_lf
   print
 
   ;; check for A
@@ -171,59 +171,59 @@ point loop
   point matchFound
   [
     ;; print "A > HELP"
-    point A
+    point c_a
     print
 
-    point SP
+    point c_sp
     print
 
-    point PROMPT
+    point c_prompt
     print
 
-    point SP
+    point c_sp
     print
 
-    point H
+    point c_h
     print
 
-    point E
+    point c_e
     print
 
-    point L
+    point c_l
     print
 
-    point P
+    point c_p
     print
 
-    point LF
+    point c_lf
     print
 
     ;; print "Z > HALT"
-    point Z
+    point c_z
     print
 
-    point SP
+    point c_sp
     print
 
-    point PROMPT
+    point c_prompt
     print
 
-    point SP
+    point c_sp
     print
 
-    point H
+    point c_h
     print
 
-    point A
+    point c_a
     print
 
-    point L
+    point c_l
     print
 
-    point T
+    point c_t
     print
 
-    point LF
+    point c_lf
     print
 
     point s_0
@@ -260,28 +260,28 @@ point loop
     point matchFound
     [
       ;; print "HALTING"
-      point H
+      point c_h
       print
 
-      point A
+      point c_a
       print
 
-      point L
+      point c_l
       print
 
-      point T
+      point c_t
       print
 
-      point I
+      point c_i
       print
 
-      point N
+      point c_n
       print
 
-      point G
+      point c_g
       print
 
-      point LF
+      point c_lf
       print
 
       point loop

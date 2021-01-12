@@ -2,19 +2,19 @@
 
 let output = "";
 
-process.argv[2].toUpperCase().split("").forEach((letter) => {
+process.argv[2].toLowerCase().split("").forEach((letter) => {
   switch (letter) {
     case ">":
-      output += `point PROMPT\nprint\n\n`;
+      output += `point c_prompt\nprint\n\n`;
     break;
     case " ":
-      output += `point SP\nprint\n\n`;
+      output += `point c_sp\nprint\n\n`;
     break;
     case "\n":
-      output += `point LF\nprint\n\n`;
+      output += `point c_lf\nprint\n\n`;
     break;
     default:
-      output += `point ${letter}\nprint\n\n`;
+      output += `point c_${letter}\nprint\n\n`;
     break;
   }
 });
