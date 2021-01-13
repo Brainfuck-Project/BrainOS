@@ -1,0 +1,55 @@
+;; print "A > HELP"
+point c_a
+print
+
+point c_sp
+print
+
+point c_prompt
+print
+
+point c_sp
+print
+
+point c_h
+print
+
+point c_e
+print
+
+point c_l
+print
+
+point c_p
+print
+
+point c_lf
+print
+
+;; print "Z > HALT"
+point c_z
+print
+
+point c_sp
+print
+
+point c_prompt
+print
+
+point c_sp
+print
+
+point c_h
+print
+
+point c_a
+print
+
+point c_l
+print
+
+point c_t
+print
+
+point c_lf
+print

@@ -170,61 +170,7 @@ point loop
 
   point matchFound
   [
-    ;; print "A > HELP"
-    point c_a
-    print
-
-    point c_sp
-    print
-
-    point c_prompt
-    print
-
-    point c_sp
-    print
-
-    point c_h
-    print
-
-    point c_e
-    print
-
-    point c_l
-    print
-
-    point c_p
-    print
-
-    point c_lf
-    print
-
-    ;; print "Z > HALT"
-    point c_z
-    print
-
-    point c_sp
-    print
-
-    point c_prompt
-    print
-
-    point c_sp
-    print
-
-    point c_h
-    print
-
-    point c_a
-    print
-
-    point c_l
-    print
-
-    point c_t
-    print
-
-    point c_lf
-    print
+    #include "help.mblf"
 
     point s_0
   ]
@@ -259,33 +205,7 @@ point loop
 
     point matchFound
     [
-      ;; print "HALTING"
-      point c_h
-      print
-
-      point c_a
-      print
-
-      point c_l
-      print
-
-      point c_t
-      print
-
-      point c_i
-      print
-
-      point c_n
-      print
-
-      point c_g
-      print
-
-      point c_lf
-      print
-
-      point loop
-      sub 1
+      #include "halt.mblf"
 
       point s_0
     ]
