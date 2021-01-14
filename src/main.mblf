@@ -265,6 +265,49 @@ point loop
   pointm m_1
 
   point userCharCopy
+  [
+    ;; print "BAD COMMAND"
+    point c_b
+    print
+
+    point c_a
+    print
+
+    point c_d
+    print
+
+    point c_sp
+    print
+
+    point c_c
+    print
+
+    point c_o
+    print
+
+    point c_m
+    print
+
+    point c_m
+    print
+
+    point c_a
+    print
+
+    point c_n
+    print
+
+    point c_d
+    print
+
+    point c_lf
+    print
+
+    point s_0
+  ]
+  pointm m_1
+
+  point userCharCopy
   setz
 
   point loop
