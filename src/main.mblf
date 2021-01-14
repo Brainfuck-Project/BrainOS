@@ -48,9 +48,9 @@ add 1
 
 ;; variables
 var checkChar
+var matchFound
 var userCharCopy
 var userChar
-var matchFound
 var loop
 
 point matchFound
@@ -179,6 +179,45 @@ point loop
   point matchFound
   setz
   add 1
+
+  ;; check for B
+  point userCharCopy
+  [
+    setz
+
+    point checkChar
+    add 2
+
+    point userChar
+    copy userCharCopy
+
+    point checkChar
+    subv userCharCopy
+
+    point userCharCopy
+    [
+      point matchFound
+      sub 1
+
+      point s_0
+    ]
+    pointm m_1
+
+    point matchFound
+    [
+      #include "charcode.mblf"
+
+      point s_0
+    ]
+    pointm m_1
+
+    point matchFound
+    setz
+    add 1
+
+    point s_0
+  ]
+  pointm m_1
 
   ;; check for Z
   point userCharCopy

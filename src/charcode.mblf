@@ -1,0 +1,231 @@
+;; variables
+var digit1
+var digit2
+var digitTemp
+var divider
+var tempBool
+var i
+var char
+
+point divider
+add 0x10
+
+point tempBool
+add 1
+
+point i
+add 9
+
+;; print "ENTER CHAR"
+point c_e
+print
+
+point c_n
+print
+
+point c_t
+print
+
+point c_e
+print
+
+point c_r
+print
+
+point c_sp
+print
+
+point c_c
+print
+
+point c_h
+print
+
+point c_a
+print
+
+point c_r
+print
+
+point c_lf
+print
+
+point c_prompt
+print
+
+point char
+getchr
+
+point c_lf
+print
+
+;; divide by 16
+point char
+[
+  sub 1
+
+  point divider
+  sub 1
+
+  point digit2
+  add 1
+
+  point divider
+  [
+    point tempBool
+    sub 1
+
+    point s_0
+  ]
+  pointm m_1
+
+  point tempBool
+  [
+    point divider
+    add 0x10
+
+    point digit2
+    sub 0x10
+
+    point digit1
+    add 1
+
+    point s_0
+  ]
+  pointm m_1
+
+  point tempBool
+  setz
+  add 1
+
+  point char
+]
+
+;; convert digit1 to hex and print
+point digit1
+copy digitTemp
+
+point i
+[
+  sub 1
+
+  point digitTemp
+  [
+    sub 1
+
+    point s_0
+  ]
+  pointm m_1
+
+  point i
+]
+
+point digitTemp
+[
+  point digit1
+  addb 0x37
+
+  point tempBool
+  sub 1
+
+  point s_0
+]
+pointm m_1
+
+point tempBool
+[
+  point digit1
+  addb 0x30
+
+  point s_0
+]
+pointm m_1
+
+point digit1
+print
+
+;; reset variables
+point digitTemp
+setz
+
+point tempBool
+setz
+add 1
+
+point i
+add 9
+
+point digit2
+copy digitTemp
+
+;; convert digit2 to hex and print
+point i
+[
+  sub 1
+
+  point digitTemp
+  [
+    sub 1
+
+    point s_0
+  ]
+  pointm m_1
+
+  point i
+]
+
+point digitTemp
+[
+  point digit2
+  addb 0x37
+
+  point tempBool
+  sub 1
+
+  point s_0
+]
+pointm m_1
+
+point tempBool
+[
+  point digit2
+  addb 0x30
+
+  point s_0
+]
+pointm m_1
+
+point digit2
+print
+
+point c_lf
+print
+
+;; clear variables
+point digit1
+setz
+delvar digit1
+
+point digit2
+setz
+delvar digit2
+
+point digitTemp
+setz
+delvar digitTemp
+
+point divider
+setz
+delvar divider
+
+point tempBool
+setz
+delvar tempBool
+
+point i
+setz
+delvar i
+
+point char
+setz
+delvar char
