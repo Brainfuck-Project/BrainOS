@@ -142,13 +142,17 @@ var c_z
 point c_z
 addb "Z"
 
+var c_dot
+point c_dot
+addb "."
+
 var c_prompt
 point c_prompt
 addb ">"
 
 var c_sp
 point c_sp
-addb 0x20
+addb " "
 
 var c_lf
 point c_lf

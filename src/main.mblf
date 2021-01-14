@@ -59,7 +59,7 @@ add 1
 point loop
 add 1
 
-;; print "BRAINOS VER 1"
+;; print "BRAINOS VER 0.1.0"
 point c_b
 print
 
@@ -96,7 +96,19 @@ print
 point c_sp
 print
 
+point c_0
+print
+
+point c_dot
+print
+
 point c_1
+print
+
+point c_dot
+print
+
+point c_0
 print
 
 point c_lf
