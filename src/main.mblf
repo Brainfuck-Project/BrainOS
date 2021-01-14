@@ -139,6 +139,12 @@ print
 ;; command loop
 point loop
 [
+  point c_o
+  print
+
+  point c_s
+  print
+
   point c_prompt
   print
 
