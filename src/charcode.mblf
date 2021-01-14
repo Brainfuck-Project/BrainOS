@@ -1,11 +1,11 @@
 ;; variables
+var char
 var digit1
 var digit2
-var digitTemp
 var divider
 var tempBool
+var digitTemp
 var i
-var char
 
 point divider
 add 0x10
@@ -155,10 +155,10 @@ add 1
 point i
 add 9
 
+;; convert digit2 to hex and print
 point digit2
 copy digitTemp
 
-;; convert digit2 to hex and print
 point i
 [
   sub 1
