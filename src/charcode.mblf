@@ -202,6 +202,10 @@ point c_lf
 print
 
 ;; clear variables
+point char
+setz
+delvar char
+
 point digit1
 setz
 delvar digit1
@@ -209,10 +213,6 @@ delvar digit1
 point digit2
 setz
 delvar digit2
-
-point digitTemp
-setz
-delvar digitTemp
 
 point divider
 setz
@@ -222,10 +222,10 @@ point tempBool
 setz
 delvar tempBool
 
+point digitTemp
+setz
+delvar digitTemp
+
 point i
 setz
 delvar i
-
-point char
-setz
-delvar char
