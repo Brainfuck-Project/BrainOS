@@ -4,6 +4,9 @@ let output = "";
 
 process.argv[2].toLowerCase().split("").forEach((letter) => {
   switch (letter) {
+    case ".":
+      output += `point c_dot\nprint\n\n`;
+    break;
     case ">":
       output += `point c_prompt\nprint\n\n`;
     break;
