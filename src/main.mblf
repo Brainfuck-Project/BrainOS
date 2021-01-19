@@ -19,16 +19,16 @@ print
 sub 11   ;; I
 print
 
-add 5   ;; N
+add 5    ;; N
 print
 
-sub 7   ;; G
+sub 7    ;; G
 print
 
-subb 61 ;; LF
+subb 61  ;; LF
 print
 
-setz
+sub 10
 delvar tempChar
 
 #include "charlib.mblf"
