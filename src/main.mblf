@@ -27,11 +27,14 @@ print
 
 subb 61  ;; LF
 print
+print
 
 sub 10
 delvar tempChar
 
 #include "charlib.mblf"
+
+#include "welcome.mblf"
 
 ;; marker
 var m_1
@@ -58,95 +61,6 @@ add 1
 
 point loop
 add 1
-
-;; print "BRAINOS VER 0.1.0"
-point c_b
-print
-
-point c_r
-print
-
-point c_a
-print
-
-point c_i
-print
-
-point c_n
-print
-
-point c_o
-print
-
-point c_s
-print
-
-point c_sp
-print
-
-point c_v
-print
-
-point c_e
-print
-
-point c_r
-print
-
-point c_sp
-print
-
-point c_0
-print
-
-point c_.
-print
-
-point c_1
-print
-
-point c_.
-print
-
-point c_0
-print
-
-point c_lf
-print
-
-;; print "A FOR HELP"
-point c_a
-print
-
-point c_sp
-print
-
-point c_f
-print
-
-point c_o
-print
-
-point c_r
-print
-
-point c_sp
-print
-
-point c_h
-print
-
-point c_e
-print
-
-point c_l
-print
-
-point c_p
-print
-
-point c_lf
-print
 
 ;; command loop
 point loop
