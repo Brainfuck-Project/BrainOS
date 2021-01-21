@@ -5,7 +5,7 @@ print
 point c_sp
 print
 
-point c_prompt
+point c_>
 print
 
 point c_sp
@@ -33,7 +33,7 @@ print
 point c_sp
 print
 
-point c_prompt
+point c_>
 print
 
 point c_sp
@@ -73,7 +73,7 @@ print
 point c_sp
 print
 
-point c_prompt
+point c_>
 print
 
 point c_sp

@@ -99,13 +99,13 @@ print
 point c_0
 print
 
-point c_dot
+point c_.
 print
 
 point c_1
 print
 
-point c_dot
+point c_.
 print
 
 point c_0
@@ -157,7 +157,7 @@ point loop
   point c_s
   print
 
-  point c_prompt
+  point c_>
   print
 
   point userChar

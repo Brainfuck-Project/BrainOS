@@ -50,7 +50,7 @@ print
 point c_lf
 print
 
-point c_prompt
+point c_>
 print
 
 point char

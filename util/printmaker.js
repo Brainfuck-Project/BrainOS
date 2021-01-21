@@ -2,14 +2,8 @@
 
 let output = "";
 
-process.argv[2].toLowerCase().split("").forEach((letter) => {
+process.argv[2].split("").forEach((letter) => {
   switch (letter) {
-    case ".":
-      output += `point c_dot\nprint\n\n`;
-    break;
-    case ">":
-      output += `point c_prompt\nprint\n\n`;
-    break;
     case " ":
       output += `point c_sp\nprint\n\n`;
     break;
