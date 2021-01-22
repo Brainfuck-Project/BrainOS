@@ -1,6 +1,5 @@
 var c_lf
 point c_lf
-addb 0x0A
 
 var c_sp
 point c_sp

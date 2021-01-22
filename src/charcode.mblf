@@ -1,4 +1,8 @@
 ;; variables
+var m_1
+point m_1
+sub 1
+var s_0
 var char
 var digit1
 var digit2
@@ -202,6 +206,12 @@ point c_lf
 print
 
 ;; clear variables
+point m_1
+add 1
+delvar m_1
+
+delvar s_0
+
 point char
 setz
 delvar char
