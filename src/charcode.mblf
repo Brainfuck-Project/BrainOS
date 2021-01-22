@@ -21,7 +21,7 @@ point i
 add 9
 
 ;; print "ENTER CHAR"
-point c_e
+point c_E
 print
 
 point c_n
@@ -46,6 +46,21 @@ point c_h
 print
 
 point c_a
+print
+
+point c_r
+print
+
+point c_a
+print
+
+point c_c
+print
+
+point c_t
+print
+
+point c_e
 print
 
 point c_r
