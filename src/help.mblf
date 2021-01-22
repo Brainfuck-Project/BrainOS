@@ -1,17 +1,17 @@
-;; print "A > HELP"
-point c_a
-print
-
-point c_sp
-print
-
-point c_>
-print
-
-point c_sp
-print
-
+;; print "hl: Help"
 point c_h
+print
+
+point c_l
+print
+
+point c_:
+print
+
+point c_sp
+print
+
+point c_H
 print
 
 point c_e
@@ -26,14 +26,38 @@ print
 point c_lf
 print
 
-;; print "B > CHARCODE"
-point c_b
+;; print "cc: Convert character to hex"
+point c_c
+print
+
+point c_c
+print
+
+point c_:
 print
 
 point c_sp
 print
 
-point c_>
+point c_C
+print
+
+point c_o
+print
+
+point c_n
+print
+
+point c_v
+print
+
+point c_e
+print
+
+point c_r
+print
+
+point c_t
 print
 
 point c_sp
@@ -51,29 +75,28 @@ print
 point c_r
 print
 
+point c_a
+print
+
 point c_c
 print
 
-point c_o
-print
-
-point c_d
+point c_t
 print
 
 point c_e
 print
 
-point c_lf
-print
-
-;; print "Z > HALT"
-point c_z
+point c_r
 print
 
 point c_sp
 print
 
-point c_>
+point c_t
+print
+
+point c_o
 print
 
 point c_sp
@@ -82,13 +105,53 @@ print
 point c_h
 print
 
-point c_a
+point c_e
 print
 
-point c_l
+point c_x
+print
+
+point c_lf
+print
+
+;; print "sd: Shut down"
+point c_s
+print
+
+point c_d
+print
+
+point c_:
+print
+
+point c_sp
+print
+
+point c_S
+print
+
+point c_h
+print
+
+point c_u
 print
 
 point c_t
+print
+
+point c_sp
+print
+
+point c_d
+print
+
+point c_o
+print
+
+point c_w
+print
+
+point c_n
 print
 
 point c_lf
