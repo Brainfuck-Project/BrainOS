@@ -148,6 +148,58 @@ point shell_active
   ]
   pointm shell_marker
 
+  ;; check for s*
+  point shell_matchNotFound
+  [
+    point shell_char_1
+    sub 0x0B
+
+    point shell_tempBool
+    add 1
+
+    point shell_char_1
+    [
+      point shell_tempBool
+      sub 1
+
+      point shell_s_0
+    ]
+    pointm shell_marker
+
+    point shell_tempBool
+    [
+      ;; check for hd
+      point shell_char_2
+      sub 0x04
+
+      point shell_char_2
+      [
+        point shell_tempBool
+        sub 1
+
+        point shell_s_0
+      ]
+      pointm shell_marker
+
+      point shell_tempBool
+      [
+        point shell_matchNotFound
+        sub 1
+
+        #include "shutdown.mblf"
+
+        point shell_s_0
+      ]
+      pointm shell_marker
+
+      point shell_s_0
+    ]
+    pointm shell_marker
+
+    point shell_s_0
+  ]
+  pointm shell_marker
+
   point shell_matchNotFound
   [
     ;; print "Bad command!"
