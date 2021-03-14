@@ -1,0 +1,4 @@
+prints "Goodbye!\n"
+
+point shell_active
+sub 1

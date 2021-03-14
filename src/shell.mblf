@@ -33,12 +33,12 @@ while shell_active
 
 
   point shell_char1
-  sub 0x08
+  sub 8 ;; h
   not shell_tempBool
 
   if shell_tempBool
     point shell_char2
-    sub 0x0c
+    sub 12 ;; l
     not shell_tempBool
 
     if shell_tempBool
@@ -46,6 +46,25 @@ while shell_active
       sub 1
 
       #include "help.mblf"
+    end
+  end
+
+  if shell_matchNotFound
+    point shell_char1
+    sub 11 ;; s
+    not shell_tempBool
+
+    if shell_tempBool
+      point shell_char2
+      sub 4 ;; d
+      not shell_tempBool
+
+      if shell_tempBool
+        point shell_matchNotFound
+        sub 1
+
+        #include "shutdown.mblf"
+      end
     end
   end
 
