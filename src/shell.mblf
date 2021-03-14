@@ -1,0 +1,56 @@
+var shell_active
+point shell_active
+add 1
+
+var shell_char1
+var shell_char2
+
+var shell_matchNotFound
+
+var shell_tempBool
+
+while shell_active
+  point shell_matchNotFound
+  set 1
+
+
+  prints "OS>"
+
+  point shell_char1
+  getchr
+
+  point shell_char2
+  getchr
+
+  prints "\n"
+
+
+  point shell_char1
+  sub 0x60
+
+  point shell_char2
+  sub 0x60
+
+
+  point shell_char1
+  sub 0x08
+  not shell_tempBool
+
+  if shell_tempBool
+    point shell_char2
+    sub 0x0c
+    not shell_tempBool
+
+    if shell_tempBool
+      point shell_matchNotFound
+      sub 1
+
+      #include "help.mblf"
+    end
+  end
+
+
+  if shell_matchNotFound
+    prints "Bad command!\n"
+  end
+end

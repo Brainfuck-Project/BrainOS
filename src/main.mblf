@@ -1,0 +1,4 @@
+prints "Welcome to BrainOS 2.0.0\n"
+prints "Type "hl" for help.\n\n"
+
+#include "shell.mblf"
