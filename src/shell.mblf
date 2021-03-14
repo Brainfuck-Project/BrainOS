@@ -49,6 +49,7 @@ while shell_active
     end
   end
 
+
   if shell_matchNotFound
     point shell_char1
     sub 11 ;; s
